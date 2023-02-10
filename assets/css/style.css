@@ -1,0 +1,1033 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", !important;
+}
+
+body#Inicio {
+  background: url(/Assets/Img/shutterstock_1049919614.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body#Inicio footer {
+  border: 4px solid lightcoral;
+  background-color: lightcoral;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+body#Inicio footer > a {
+  text-decoration: none;
+}
+body#Inicio footer > a > .mail {
+  position: relative;
+  margin: auto;
+  width: auto;
+}
+body#Inicio footer > a > .IG {
+  position: relative;
+  margin: auto;
+  width: auto;
+}
+body#Inicio footer > a > .WSP {
+  position: relative;
+  margin: auto;
+  width: auto;
+}
+body#Inicio footer > a > .fd {
+  position: relative;
+  margin: auto;
+  width: auto;
+}
+body#Inicio > .gridinicio {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 10vh 40vh 35vh;
+  grid-gap: 1vh;
+}
+body#Inicio > .gridinicio > .navbar {
+  background-color: burlywood;
+  display: flex;
+  width: auto;
+  height: min-content;
+  justify-content: end;
+  font-style: none;
+}
+body#Inicio > .gridinicio > .navbar > ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+body#Inicio > .gridinicio > .navbar > ul > li > a {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding: 13px;
+  margin: 0%;
+}
+body#Inicio > .gridinicio > .navbar > ul > li > a:hover {
+  background: orangered;
+  color: white;
+}
+body#Inicio > .gridinicio > .hamnav {
+  width: 100%;
+  height: 38%;
+  background: burlywood;
+  display: none;
+}
+body#Inicio > .gridinicio > .hamnav > .hamburger {
+  position: fixed;
+  top: 17px;
+  left: 12px;
+  opacity: 0%;
+}
+body#Inicio > .gridinicio > .hamnav > .hamburger > .hamitems {
+  display: flex;
+}
+body#Inicio > .gridinicio > .hamnav > .hamburger > .hamitems > a {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+body#Inicio > .gridinicio > .hamnav > .hamburger > .hamitems a:hover {
+  background: #af0d0d;
+}
+body#Inicio > .gridinicio > .PosicionInicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body#Inicio > .gridinicio > .PosicionInicio > #TitleInicio {
+  border-style: ridge;
+  width: fit-content;
+  background-color: rgb(165, 106, 28);
+  border-radius: 15px;
+  border-width: 20px;
+}
+body#Inicio > .gridinicio > .containercards > #cardssection {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+body#Inicio > .gridinicio > .containercards > #cardssection > .cardinicio {
+  padding: 10px;
+}
+body#Inicio > .gridinicio > .containercards > #cardssection > .cardinicio > .Cardinicio-info {
+  background-color: aqua;
+  width: auto;
+  margin: auto;
+  text-align: center;
+}
+body#Inicio > .gridinicio > .containercards > #cardssection > .cardinicio > .Cardinicio-info > h2 {
+  margin: auto;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+body#Productos {
+  background-image: url(/Assets/Img/colorful-ice-cream-seamless-pattern-background-for-poster-print-cards-wrapping-paper-clothes-decoration-and-ice-cream-shop-vector.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body#Productos footer {
+  border: 4px solid lightcoral;
+  background-color: lightcoral;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+body#Productos footer > a {
+  text-decoration: none;
+}
+body#Productos footer > a > .mail {
+  position: relative;
+  margin: auto;
+  width: auto;
+}
+body#Productos footer > a > .IG {
+  position: relative;
+  margin: auto;
+  width: auto;
+}
+body#Productos footer > a > .WSP {
+  position: relative;
+  margin: auto;
+  width: auto;
+}
+body#Productos footer > a > .fd {
+  position: relative;
+  margin: auto;
+  width: auto;
+}
+body#Productos > .gridproductos {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 8vh 12vh 7vh 40vh 50vh;
+  grid-gap: 2vh;
+}
+body#Productos > .gridproductos > .navbar {
+  background-color: burlywood;
+  display: flex;
+  width: auto;
+  height: min-content;
+  justify-content: end;
+  font-style: none;
+}
+body#Productos > .gridproductos > .navbar > ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+body#Productos > .gridproductos > .navbar > ul > li > a {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding: 13px;
+  margin: 0%;
+}
+body#Productos > .gridproductos > .navbar > ul > li > a:hover {
+  background: orangered;
+  color: white;
+}
+body#Productos > .gridproductos > .hamnav {
+  width: auto;
+  height: 50px;
+  background: burlywood;
+  display: none;
+}
+body#Productos > .gridproductos > .hamnav > .hamburger {
+  position: fixed !important;
+  top: 17px;
+  left: 12px;
+  opacity: 0%;
+}
+body#Productos > .gridproductos > .hamnav > .hamburger > .hamitems {
+  display: flex;
+}
+body#Productos > .gridproductos > .hamnav > .hamburger > .hamitems > a {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+body#Productos > .gridproductos > .hamnav > .hamburger > .hamitems a:hover {
+  background: #af0d0d;
+}
+body#Productos > .gridproductos > .tituloproductos {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+body#Productos > .gridproductos > .tituloproductos > .Titulo1 {
+  display: flex;
+  border: 10px solid rgb(65, 40, 124);
+  border-width: 9px;
+  background-color: rgb(171, 102, 250);
+  border-radius: 10px;
+  border-width: 10px;
+  border-left: 30px solid blue;
+  border-right: 30px solid blue;
+  width: auto;
+  height: fit-content;
+  margin: auto;
+}
+body#Productos > .gridproductos > .tituloproductos > .Titulo1 > h1 {
+  font-size: 35px;
+  width: auto;
+}
+body#Productos > .gridproductos > .Subtitulo {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: min-content;
+  border: solid rgb(65, 40, 124);
+  background-color: rgb(171, 102, 250);
+  border-radius: 10px;
+  border-width: 10px;
+  width: fit-content;
+  margin: auto;
+}
+body#Productos > .gridproductos > table {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin: auto;
+  font-size: 20px;
+  background-color: antiquewhite;
+}
+body#Productos > .gridproductos > table > tbody {
+  border: solid green;
+}
+body#Productos > .gridproductos > table > tbody > tr {
+  border: solid green;
+}
+body#Productos > .gridproductos > table > tbody > tr > th {
+  border: solid green;
+  padding: 5px;
+}
+body#Productos > .gridproductos > table > tbody > tr > td {
+  border: solid green;
+  padding: 3px;
+}
+body#Productos > .gridproductos > .OtrosProductos > .TextOP {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+body#Productos > .gridproductos > .OtrosProductos > .TextOP > h3 {
+  width: min-content;
+  font-size: 35px;
+  border: 10px solid rgb(65, 40, 124);
+  border-width: 9px;
+  background-color: rgb(171, 102, 250);
+  border-radius: 10px;
+  border-width: 10px;
+  text-align: center;
+  margin: auto;
+}
+body#Productos > .gridproductos > .OtrosProductos > .cardsproductos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: auto;
+}
+body#Productos > .gridproductos > .OtrosProductos > .cardsproductos > .cardproductos {
+  margin: 2vh;
+  border: 12px solid rgb(181, 222, 135);
+  background-color: antiquewhite;
+}
+body#Productos > .gridproductos > .OtrosProductos > .cardsproductos > .cardproductos > .Card-infoproductos > h4 {
+  font-size: 25px;
+  border-radius: 5px;
+  color: black;
+  font-weight: 700;
+}
+body#Productos > .gridproductos > .OtrosProductos > .cardsproductos > .cardproductos > .Card-infoproductos > .btnProducts {
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+}
+body#Productos > .gridproductos > .OtrosProductos > .cardsproductos > .cardproductos > .Card-infoproductos > .btnProducts:hover {
+  color: cyan;
+}
+
+body#SN {
+  background: url(/Assets/Img/istockphoto-1278990546-612x612.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body#SN footer {
+  border: 4px solid lightcoral;
+  background-color: lightcoral;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+body#SN footer > a {
+  text-decoration: none;
+}
+body#SN footer > a > .mail {
+  position: relative;
+  margin: auto;
+  width: auto;
+}
+body#SN footer > a > .IG {
+  position: relative;
+  margin: auto;
+  width: auto;
+}
+body#SN footer > a > .WSP {
+  position: relative;
+  margin: auto;
+  width: auto;
+}
+body#SN footer > a > .fd {
+  position: relative;
+  margin: auto;
+  width: auto;
+}
+body#SN > .gridsobrenosotros {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 7vh 60vh 7vh 40vh 85vh;
+}
+body#SN > .gridsobrenosotros > .navbar {
+  background-color: burlywood;
+  display: flex;
+  width: auto;
+  height: min-content;
+  justify-content: end;
+  font-style: none;
+}
+body#SN > .gridsobrenosotros > .navbar > ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+body#SN > .gridsobrenosotros > .navbar > ul > li > a {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding: 13px;
+  margin: 0%;
+}
+body#SN > .gridsobrenosotros > .navbar > ul > li > a:hover {
+  background: orangered;
+  color: white;
+}
+body#SN > .gridsobrenosotros > .hamnav {
+  width: auto;
+  height: 50px;
+  background: burlywood;
+  display: none;
+}
+body#SN > .gridsobrenosotros > .hamnav > .hamburger {
+  position: fixed;
+  top: 17px;
+  left: 12px;
+  opacity: 0%;
+}
+body#SN > .gridsobrenosotros > .hamnav > .hamburger > .hamitems {
+  display: flex;
+}
+body#SN > .gridsobrenosotros > .hamnav > .hamburger > .hamitems > a {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+body#SN > .gridsobrenosotros > .hamnav > .hamburger > .hamitems a:hover {
+  background: #af0d0d;
+}
+body#SN > .gridsobrenosotros > .PosicionTSN {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+}
+body#SN > .gridsobrenosotros > .PosicionTSN > .headerSN {
+  width: auto;
+  border: solid 10px;
+  border-style: dotted;
+  border-width: 10px;
+  margin: auto;
+}
+body#SN > .gridsobrenosotros > .TtleSN {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin: auto;
+}
+body#SN > .gridsobrenosotros > .TtleSN > h1 {
+  border: 10px solid rgb(255, 255, 255);
+  background-color: rgb(190, 176, 113);
+  border-radius: 10px;
+  border-left: 30px solid rgb(0, 0, 0);
+  border-right: 30px solid rgb(0, 0, 0);
+  font-size: 50px;
+}
+body#SN > .gridsobrenosotros > .PositionTextSN {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: auto;
+  height: auto;
+  border: 10px solid rgb(0, 0, 0);
+  background-color: whitesmoke;
+}
+body#SN > .gridsobrenosotros > .PositionTextSN > div > p {
+  width: auto;
+  font-size: 22px;
+}
+body#SN > .gridsobrenosotros > .positionpic {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: auto;
+  height: auto;
+}
+body#SN > .gridsobrenosotros > .positionpic > .pic {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: auto;
+  height: auto;
+}
+
+body#Ubicacion {
+  background: url(/Assets/Img/colorful-ice-cream-seamless-pattern-background-for-poster-print-cards-wrapping-paper-clothes-decoration-and-ice-cream-shop-vector.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body#Ubicacion footer {
+  border: 4px solid lightcoral;
+  background-color: lightcoral;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+body#Ubicacion footer > a {
+  text-decoration: none;
+}
+body#Ubicacion footer > a > .mail {
+  position: relative;
+  margin: auto;
+  width: auto;
+}
+body#Ubicacion footer > a > .IG {
+  position: relative;
+  margin: auto;
+  width: auto;
+}
+body#Ubicacion footer > a > .WSP {
+  position: relative;
+  margin: auto;
+  width: auto;
+}
+body#Ubicacion footer > a > .fd {
+  position: relative;
+  margin: auto;
+  width: auto;
+}
+body#Ubicacion > .gridubicacion {
+  display: grid !important;
+  grid-template-columns: 100%;
+  grid-template-rows: 8vh 8vh 50vh 17vh;
+}
+body#Ubicacion > .gridubicacion > .navbar {
+  background-color: burlywood;
+  display: flex;
+  width: auto;
+  height: min-content;
+  justify-content: end;
+  font-style: none;
+}
+body#Ubicacion > .gridubicacion > .navbar > ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+body#Ubicacion > .gridubicacion > .navbar > ul > li > a {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding: 13px;
+  margin: 0%;
+}
+body#Ubicacion > .gridubicacion > .navbar > ul > li > a:hover {
+  background: orangered;
+  color: white;
+}
+body#Ubicacion > .gridubicacion > .hamnav {
+  width: auto;
+  height: 50px;
+  background: burlywood;
+  display: none;
+}
+body#Ubicacion > .gridubicacion > .hamnav > .hamburger {
+  position: fixed;
+  top: 17px;
+  left: 12px;
+  opacity: 0%;
+}
+body#Ubicacion > .gridubicacion > .hamnav > .hamburger > .hamitems {
+  display: flex;
+}
+body#Ubicacion > .gridubicacion > .hamnav > .hamburger > .hamitems > a {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+body#Ubicacion > .gridubicacion > .hamnav > .hamburger > .hamitems a:hover {
+  background: #af0d0d;
+}
+body#Ubicacion > .gridubicacion > .PosicionTtleUbicacion {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: auto;
+  height: auto;
+  padding: auto;
+}
+body#Ubicacion > .gridubicacion > .PosicionTtleUbicacion > .TtleUbic > strong {
+  width: auto;
+  margin: auto;
+  background-color: rgb(219, 52, 52);
+  border-radius: 15px;
+  border-width: 20px;
+  border: solid 5px rgb(255, 137, 2);
+  font-size: 30px;
+}
+body#Ubicacion > .gridubicacion > .ContainerMap {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin: auto;
+}
+body#Ubicacion > .gridubicacion > .ContainerMap > .map {
+  border: solid 10px green !important;
+}
+body#Ubicacion > .gridubicacion > .TextUbic {
+  display: flex;
+  width: fit-content;
+  margin: auto;
+  height: auto;
+}
+body#Ubicacion > .gridubicacion > .TextUbic > b {
+  background-color: rgb(216, 101, 197);
+  border: solid 5px rgb(105, 34, 105);
+  border-radius: 15px;
+  border-width: 6px;
+  font-size: 21px;
+  margin: auto;
+  height: auto;
+  width: auto;
+}
+body#Ubicacion > .gridubicacion > .posicionbtnubic {
+  display: flex !important;
+  justify-items: center !important;
+  margin: auto !important;
+}
+body#Ubicacion > .gridubicacion > .posicionbtnubic > .btnUbicStyle {
+  background-color: blue;
+  border-radius: 5px;
+  color: white;
+}
+
+body#Contactarse {
+  background: url(/Assets/Img/colorful-ice-cream-seamless-pattern-background-for-poster-print-cards-wrapping-paper-clothes-decoration-and-ice-cream-shop-vector.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body#Contactarse > footer {
+  border: 4px solid lightcoral;
+  background-color: lightcoral;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+body#Contactarse > footer > a {
+  text-decoration: none;
+}
+body#Contactarse > footer > a > .mail {
+  position: relative;
+  margin: auto;
+  width: auto;
+}
+body#Contactarse > footer > a > .IG {
+  position: relative;
+  margin: auto;
+  width: auto;
+}
+body#Contactarse > footer > a > .WSP {
+  position: relative;
+  margin: auto;
+  width: auto;
+}
+body#Contactarse > footer > a > .fd {
+  position: relative;
+  margin: auto;
+  width: auto;
+}
+body#Contactarse > .gridcontactarse {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 6vh 14vh 65vh 13vh;
+}
+body#Contactarse > .gridcontactarse > .navbar {
+  background-color: burlywood;
+  display: flex;
+  width: auto;
+  height: min-content;
+  justify-content: end;
+  font-style: none;
+}
+body#Contactarse > .gridcontactarse > .navbar > ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+body#Contactarse > .gridcontactarse > .navbar > ul > li > a {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding: 13px;
+  margin: 0%;
+}
+body#Contactarse > .gridcontactarse > .navbar > ul > li > a:hover {
+  background: orangered;
+  color: white;
+}
+body#Contactarse > .gridcontactarse > .hamnav {
+  width: auto;
+  height: 50px;
+  background: burlywood;
+  display: none;
+}
+body#Contactarse > .gridcontactarse > .hamnav > label {
+  margin: auto !important;
+  width: auto !important;
+  height: auto !important;
+}
+body#Contactarse > .gridcontactarse > .hamnav > .hamburger {
+  position: fixed;
+  top: 17px;
+  left: 12px;
+  opacity: 0%;
+}
+body#Contactarse > .gridcontactarse > .hamnav > .hamburger > .hamitems {
+  display: flex;
+}
+body#Contactarse > .gridcontactarse > .hamnav > .hamburger > .hamitems > a {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+body#Contactarse > .gridcontactarse > .hamnav > .hamburger > .hamitems a:hover {
+  background: #af0d0d;
+}
+body#Contactarse > .gridcontactarse > .PosicionHContacto {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: auto;
+}
+body#Contactarse > .gridcontactarse > .PosicionHContacto > .headercontactarse {
+  border-style: ridge;
+  width: fit-content;
+  background-color: rgb(165, 106, 28);
+  border-radius: 15px;
+  border-width: 20px;
+}
+body#Contactarse > .gridcontactarse .containerformcontc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 24vh;
+}
+body#Contactarse > .gridcontactarse .containerformcontc > form {
+  color: rgb(219, 29, 29);
+  border: solid 20px rgb(250, 182, 119);
+  background-color: rgb(255, 192, 119);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  height: max-content;
+  padding: 6vh;
+  margin: auto;
+}
+body#Contactarse > .gridcontactarse .containerformcontc > form > input, body#Contactarse > .gridcontactarse .containerformcontc > form textarea {
+  width: max-content;
+  height: max-content;
+  padding: 15px;
+  margin: 10px;
+}
+body#Contactarse > .gridcontactarse .containerformcontc > form > textarea {
+  width: auto !important;
+}
+body#Contactarse > .gridcontactarse .containerformcontc > form > .btncontactarse {
+  display: block;
+  width: auto;
+  text-align: center;
+  padding: 15px;
+  border: none;
+  margin: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: rgb(125, 125, 168);
+  color: white;
+}
+body#Contactarse > .gridcontactarse .PosicionPContacto {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 50vh;
+}
+body#Contactarse > .gridcontactarse .PosicionPContacto > .textcontactarse {
+  background-color: aliceblue;
+  border: 1px solid black;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  .gridinicio {
+    grid-template-columns: 100% !important;
+    grid-template-rows: 15vh 10vh 140vh !important;
+  }
+  .navbar {
+    display: none !important;
+  }
+  .hamnav {
+    display: inline-block !important;
+  }
+  .hamitems a {
+    box-sizing: border-box !important;
+    display: block !important;
+    width: auto !important;
+    border: 4px solid black !important;
+  }
+  .hamnav label {
+    color: white !important;
+    background: #a02620 !important;
+    font-style: normal !important;
+    padding: 13px !important;
+    height: 100% !important;
+  }
+  .hamitems {
+    position: fixed !important;
+    background-color: burlywood !important;
+    text-decoration: none !important;
+  }
+  .hamitems a {
+    border: solid black !important;
+    width: auto !important;
+    text-decoration: none !important;
+    color: black !important;
+    text-align: center !important;
+  }
+  .hamitems a:hover {
+    background: orangered !important;
+    color: white !important;
+  }
+  .hamitems {
+    display: none !important;
+  }
+  .hamnav input:checked ~ .hamitems {
+    display: block !important;
+  }
+  #TitleInicio h1 {
+    font-size: 25px !important;
+  }
+  .containercards {
+    width: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  #cardssection {
+    flex-direction: column !important;
+    margin: auto !important;
+    width: auto !important;
+    height: auto !important;
+  }
+  .cardinicio img {
+    width: 35vh !important;
+    height: 25vh !important;
+    margin: auto !important;
+  }
+  .Cardinicio-info {
+    width: fit-content;
+    margin: auto !important;
+  }
+  .Cardinicio-info h2 {
+    font-size: 18px !important;
+    margin: auto !important;
+  }
+  .Titulo1 h1 {
+    font-size: 32px !important;
+  }
+  .gridproductos {
+    grid-template-columns: 100% !important;
+    grid-template-rows: 8vh 15vh 10vh 45vh 280vh !important;
+  }
+  .tituloproductos {
+    margin: auto !important;
+    width: fit-content !important;
+  }
+  .Titulo1 h1 {
+    font-size: 30px !important;
+  }
+  .Subtitulo h2 {
+    font-size: 24px !important;
+  }
+  .Sabores {
+    width: fit-content !important;
+    height: fit-content !important;
+    font-size: 12px !important;
+    margin: fit-content !important;
+  }
+  .Sabores th {
+    padding: 0 !important;
+  }
+  .Sabores td {
+    font-size: 14px !important;
+    height: 8vh !important;
+    width: min-content !important;
+    height: min-content !important;
+  }
+  .OtrosProductos h3 {
+    font-size: 21px !important;
+    width: 20vh !important;
+    margin-top: 10vh !important;
+    font-weight: 700 !important;
+  }
+  .cardproductos img {
+    width: 43.2vh !important;
+    height: 20vh !important;
+  }
+  .cardsproductos {
+    display: flex !important;
+    flex-direction: column !important;
+    margin: 5vh !important;
+    width: min-content !important;
+    height: min-content !important;
+  }
+  .cardproductos img {
+    width: 41.2vh !important;
+  }
+  .gridsobrenosotros {
+    grid-template-rows: 7vh 40vh 20vh 90vh 65vh !important;
+  }
+  .Gif {
+    width: 400px !important;
+    height: 300px !important;
+  }
+  .PositionTextSN {
+    max-width: 55vh !important;
+  }
+  .pic {
+    display: flex !important;
+    justify-content: center !important;
+    margin: auto !important;
+    width: 55vh !important;
+    height: 40vh !important;
+  }
+  .PosicionTtleUbicacion {
+    margin: 20px !important;
+  }
+  .ContainerMap {
+    margin: 10px !important;
+  }
+  .gridubicacion {
+    grid-template-rows: 8vh 8vh 55vh 17vh !important;
+    grid-gap: 1vh !important;
+  }
+  .cardproductos:hover {
+    transform: scale(1.2) !important;
+    transition: 0.5s !important;
+  }
+  .gridcontactarse {
+    grid-template-columns: 100% !important;
+    grid-template-rows: 5vh 20vh 70vh 30vh !important;
+  }
+  .textcontactarse {
+    width: 50vh !important;
+    font-size: 24px !important;
+    margin: auto !important;
+  }
+  .PosicionHContacto {
+    width: auto !important;
+    font-size: 12px !important;
+  }
+  .headercontactarse h1 {
+    font-size: 25px !important;
+  }
+  .containerformcontc {
+    width: auto !important;
+    margin: auto !important;
+    height: auto !important;
+  }
+  .cardinicio:hover {
+    transform: scale(1.1) !important;
+    transition: 0.5s !important;
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+}
+body {
+  margin: auto;
+  overflow: auto;
+  animation: gradient infinite 25s ease;
+  background-attachment: fixed;
+}
+
+body#Inicio {
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow: auto;
+  animation: gradient infinite 25s ease;
+  background-attachment: fixed;
+}
+
+body#Productos {
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow: auto;
+  animation: gradient infinite 25s ease;
+  background-attachment: fixed;
+}
+
+.cardinicio:hover, .Cardinicio-info:hover {
+  transform: scale(1.3);
+  transition: 0.5s;
+}
+
+.cardproductos:hover {
+  transform: scale(1.3);
+  transition: 0.5s;
+}
