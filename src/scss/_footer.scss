@@ -1,0 +1,34 @@
+footer
+{
+    border: 4px solid lightcoral;
+    background-color:lightcoral;
+    width: 100%;
+    color: black;
+    text-align: center;
+        > a
+        {
+            text-decoration:none;
+            >.mail
+            {
+                margin: auto;
+                width: auto;
+            }
+            >.IG
+            {
+                margin: auto;
+                width: auto;
+            }
+            >.WSP
+            {
+                margin: auto;
+                width: auto;
+            
+            
+            }
+            >.fd
+            {
+                margin: auto;
+                width: auto;
+            }
+        }
+    }
